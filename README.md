@@ -1,3 +1,5 @@
+<img width="1901" height="912" alt="Screenshot 2025-12-04 151836" src="https://github.com/user-attachments/assets/4ffd0e6c-a542-442d-bd28-9cb3015f0b06" />
+<img width="1906" height="897" alt="Screenshot 2025-12-04 151822" src="https://github.com/user-attachments/assets/375b5c95-56c6-42d4-a04d-7471ed56fe51" />
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -124,4 +126,5 @@ st.download_button(
     data=csv,
     file_name=f'HooLiv_Simulation_{city}.csv',
     mime='text/csv',
+
 )
